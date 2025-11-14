@@ -1,0 +1,802 @@
+----- ^HASTC | 2025-11-13 10:39:34 -----
+Traceback (most recent call last):
+  File "C:\Users\Gau lang thang\Desktop\market_strength\download_history_vnstock.py", line 101, in <module>
+    s = v.stock(symbol=sym)
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\common\client.py", line 110, in stock
+    return StockComponents(
+        self.symbol,
+        source,
+        show_log=self.show_log
+    )
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\common\data.py", line 105, in __init__
+    self.asset_type = get_asset_type(self.symbol)
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\core\utils\parser.py", line 170, in get_asset_type
+    raise ValueError('Invalid symbol. Your symbol format is not recognized!')
+ValueError: Invalid symbol. Your symbol format is not recognized!
+
+
+----- ^UPCOM | 2025-11-13 10:39:46 -----
+Traceback (most recent call last):
+  File "C:\Users\Gau lang thang\Desktop\market_strength\download_history_vnstock.py", line 101, in <module>
+    s = v.stock(symbol=sym)
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\common\client.py", line 110, in stock
+    return StockComponents(
+        self.symbol,
+        source,
+        show_log=self.show_log
+    )
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\common\data.py", line 105, in __init__
+    self.asset_type = get_asset_type(self.symbol)
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\core\utils\parser.py", line 170, in get_asset_type
+    raise ValueError('Invalid symbol. Your symbol format is not recognized!')
+ValueError: Invalid symbol. Your symbol format is not recognized!
+
+
+----- ^VN30 | 2025-11-13 10:39:58 -----
+Traceback (most recent call last):
+  File "C:\Users\Gau lang thang\Desktop\market_strength\download_history_vnstock.py", line 101, in <module>
+    s = v.stock(symbol=sym)
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\common\client.py", line 110, in stock
+    return StockComponents(
+        self.symbol,
+        source,
+        show_log=self.show_log
+    )
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\common\data.py", line 105, in __init__
+    self.asset_type = get_asset_type(self.symbol)
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\core\utils\parser.py", line 170, in get_asset_type
+    raise ValueError('Invalid symbol. Your symbol format is not recognized!')
+ValueError: Invalid symbol. Your symbol format is not recognized!
+
+
+----- ^VNINDEX | 2025-11-13 10:40:09 -----
+Traceback (most recent call last):
+  File "C:\Users\Gau lang thang\Desktop\market_strength\download_history_vnstock.py", line 101, in <module>
+    s = v.stock(symbol=sym)
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\common\client.py", line 110, in stock
+    return StockComponents(
+        self.symbol,
+        source,
+        show_log=self.show_log
+    )
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\common\data.py", line 110, in __init__
+    self._initialize_components()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\common\data.py", line 129, in _initialize_components
+    self.quote = Quote(self.symbol, self.source)
+                 ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\common\data.py", line 161, in __init__
+    super().__init__(symbol, source)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\common\data.py", line 63, in __init__
+    self.data_source = self._load_data_source()
+                       ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\common\data.py", line 169, in _load_data_source
+    return module.Quote(self.symbol)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\explorer\vci\quote.py", line 77, in __init__
+    self.symbol = self._index_validation()
+                  ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\explorer\vci\quote.py", line 86, in _index_validation
+    raise ValueError(
+    ...<2 lines>...
+    )
+ValueError: Không tìm thấy mã chứng khoán ^VNINDEX. Các giá trị hợp lệ: VNINDEX, HNXINDEX, UPCOMINDEX
+
+
+----- ^HASTC | 2025-11-13 13:24:35 -----
+Traceback (most recent call last):
+  File "C:\Users\Gau lang thang\Desktop\market_strength\retry_failed.py", line 57, in try_download
+    s = v.stock(symbol=sym)
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\common\client.py", line 110, in stock
+    return StockComponents(
+        self.symbol,
+        source,
+        show_log=self.show_log
+    )
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\common\data.py", line 105, in __init__
+    self.asset_type = get_asset_type(self.symbol)
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\core\utils\parser.py", line 170, in get_asset_type
+    raise ValueError('Invalid symbol. Your symbol format is not recognized!')
+ValueError: Invalid symbol. Your symbol format is not recognized!
+
+
+----- ^UPCOM | 2025-11-13 13:24:41 -----
+Traceback (most recent call last):
+  File "C:\Users\Gau lang thang\Desktop\market_strength\retry_failed.py", line 57, in try_download
+    s = v.stock(symbol=sym)
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\common\client.py", line 110, in stock
+    return StockComponents(
+        self.symbol,
+        source,
+        show_log=self.show_log
+    )
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\common\data.py", line 105, in __init__
+    self.asset_type = get_asset_type(self.symbol)
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\core\utils\parser.py", line 170, in get_asset_type
+    raise ValueError('Invalid symbol. Your symbol format is not recognized!')
+ValueError: Invalid symbol. Your symbol format is not recognized!
+
+
+----- ^VN30 | 2025-11-13 13:24:47 -----
+Traceback (most recent call last):
+  File "C:\Users\Gau lang thang\Desktop\market_strength\retry_failed.py", line 57, in try_download
+    s = v.stock(symbol=sym)
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\common\client.py", line 110, in stock
+    return StockComponents(
+        self.symbol,
+        source,
+        show_log=self.show_log
+    )
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\common\data.py", line 105, in __init__
+    self.asset_type = get_asset_type(self.symbol)
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\core\utils\parser.py", line 170, in get_asset_type
+    raise ValueError('Invalid symbol. Your symbol format is not recognized!')
+ValueError: Invalid symbol. Your symbol format is not recognized!
+
+
+----- ^VNINDEX | 2025-11-13 13:24:53 -----
+Traceback (most recent call last):
+  File "C:\Users\Gau lang thang\Desktop\market_strength\retry_failed.py", line 57, in try_download
+    s = v.stock(symbol=sym)
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\common\client.py", line 110, in stock
+    return StockComponents(
+        self.symbol,
+        source,
+        show_log=self.show_log
+    )
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\common\data.py", line 110, in __init__
+    self._initialize_components()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\common\data.py", line 129, in _initialize_components
+    self.quote = Quote(self.symbol, self.source)
+                 ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\common\data.py", line 161, in __init__
+    super().__init__(symbol, source)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\common\data.py", line 63, in __init__
+    self.data_source = self._load_data_source()
+                       ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\common\data.py", line 169, in _load_data_source
+    return module.Quote(self.symbol)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\explorer\vci\quote.py", line 77, in __init__
+    self.symbol = self._index_validation()
+                  ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\explorer\vci\quote.py", line 86, in _index_validation
+    raise ValueError(
+    ...<2 lines>...
+    )
+ValueError: Không tìm thấy mã chứng khoán ^VNINDEX. Các giá trị hợp lệ: VNINDEX, HNXINDEX, UPCOMINDEX
+
+
+----- python - << "PY" | 2025-11-13 13:43:15 -----
+Traceback (most recent call last):
+  File "C:\Users\Gau lang thang\Desktop\market_strength\retry_failed.py", line 57, in try_download
+    s = v.stock(symbol=sym)
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\common\client.py", line 110, in stock
+    return StockComponents(
+        self.symbol,
+        source,
+        show_log=self.show_log
+    )
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\common\data.py", line 105, in __init__
+    self.asset_type = get_asset_type(self.symbol)
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\core\utils\parser.py", line 170, in get_asset_type
+    raise ValueError('Invalid symbol. Your symbol format is not recognized!')
+ValueError: Invalid symbol. Your symbol format is not recognized!
+
+
+----- import os | 2025-11-13 13:43:21 -----
+Traceback (most recent call last):
+  File "C:\Users\Gau lang thang\Desktop\market_strength\retry_failed.py", line 57, in try_download
+    s = v.stock(symbol=sym)
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\common\client.py", line 110, in stock
+    return StockComponents(
+        self.symbol,
+        source,
+        show_log=self.show_log
+    )
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\common\data.py", line 105, in __init__
+    self.asset_type = get_asset_type(self.symbol)
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\core\utils\parser.py", line 163, in get_asset_type
+    raise ValueError('Invalid derivative or bond symbol. Symbol must be in format of VN30F1M, VN30F2024, GB10F2024, or for company bonds, e.g., BAB122032')
+ValueError: Invalid derivative or bond symbol. Symbol must be in format of VN30F1M, VN30F2024, GB10F2024, or for company bonds, e.g., BAB122032
+
+
+----- # file gốc | 2025-11-13 13:43:27 -----
+Traceback (most recent call last):
+  File "C:\Users\Gau lang thang\Desktop\market_strength\retry_failed.py", line 57, in try_download
+    s = v.stock(symbol=sym)
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\common\client.py", line 110, in stock
+    return StockComponents(
+        self.symbol,
+        source,
+        show_log=self.show_log
+    )
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\common\data.py", line 105, in __init__
+    self.asset_type = get_asset_type(self.symbol)
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\core\utils\parser.py", line 170, in get_asset_type
+    raise ValueError('Invalid symbol. Your symbol format is not recognized!')
+ValueError: Invalid symbol. Your symbol format is not recognized!
+
+
+----- src = "vnstock_failed.txt" | 2025-11-13 13:43:32 -----
+Traceback (most recent call last):
+  File "C:\Users\Gau lang thang\Desktop\market_strength\retry_failed.py", line 57, in try_download
+    s = v.stock(symbol=sym)
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\common\client.py", line 110, in stock
+    return StockComponents(
+        self.symbol,
+        source,
+        show_log=self.show_log
+    )
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\common\data.py", line 105, in __init__
+    self.asset_type = get_asset_type(self.symbol)
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\core\utils\parser.py", line 170, in get_asset_type
+    raise ValueError('Invalid symbol. Your symbol format is not recognized!')
+ValueError: Invalid symbol. Your symbol format is not recognized!
+
+
+----- if not os.path.exists(src): | 2025-11-13 13:43:38 -----
+Traceback (most recent call last):
+  File "C:\Users\Gau lang thang\Desktop\market_strength\retry_failed.py", line 57, in try_download
+    s = v.stock(symbol=sym)
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\common\client.py", line 110, in stock
+    return StockComponents(
+        self.symbol,
+        source,
+        show_log=self.show_log
+    )
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\common\data.py", line 105, in __init__
+    self.asset_type = get_asset_type(self.symbol)
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\core\utils\parser.py", line 170, in get_asset_type
+    raise ValueError('Invalid symbol. Your symbol format is not recognized!')
+ValueError: Invalid symbol. Your symbol format is not recognized!
+
+
+----- print("❌ File vnstock_failed.txt không tồn tại trong thư mục hiện tại!") | 2025-11-13 13:43:44 -----
+Traceback (most recent call last):
+  File "C:\Users\Gau lang thang\Desktop\market_strength\retry_failed.py", line 57, in try_download
+    s = v.stock(symbol=sym)
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\common\client.py", line 110, in stock
+    return StockComponents(
+        self.symbol,
+        source,
+        show_log=self.show_log
+    )
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\common\data.py", line 105, in __init__
+    self.asset_type = get_asset_type(self.symbol)
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\core\utils\parser.py", line 170, in get_asset_type
+    raise ValueError('Invalid symbol. Your symbol format is not recognized!')
+ValueError: Invalid symbol. Your symbol format is not recognized!
+
+
+----- raise SystemExit | 2025-11-13 13:43:50 -----
+Traceback (most recent call last):
+  File "C:\Users\Gau lang thang\Desktop\market_strength\retry_failed.py", line 57, in try_download
+    s = v.stock(symbol=sym)
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\common\client.py", line 110, in stock
+    return StockComponents(
+        self.symbol,
+        source,
+        show_log=self.show_log
+    )
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\common\data.py", line 105, in __init__
+    self.asset_type = get_asset_type(self.symbol)
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\core\utils\parser.py", line 170, in get_asset_type
+    raise ValueError('Invalid symbol. Your symbol format is not recognized!')
+ValueError: Invalid symbol. Your symbol format is not recognized!
+
+
+----- skip_indices = { | 2025-11-13 13:43:56 -----
+Traceback (most recent call last):
+  File "C:\Users\Gau lang thang\Desktop\market_strength\retry_failed.py", line 57, in try_download
+    s = v.stock(symbol=sym)
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\common\client.py", line 110, in stock
+    return StockComponents(
+        self.symbol,
+        source,
+        show_log=self.show_log
+    )
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\common\data.py", line 105, in __init__
+    self.asset_type = get_asset_type(self.symbol)
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\core\utils\parser.py", line 170, in get_asset_type
+    raise ValueError('Invalid symbol. Your symbol format is not recognized!')
+ValueError: Invalid symbol. Your symbol format is not recognized!
+
+
+----- "VNINDEX","HNXINDEX","UPCOMINDEX", | 2025-11-13 13:44:02 -----
+Traceback (most recent call last):
+  File "C:\Users\Gau lang thang\Desktop\market_strength\retry_failed.py", line 57, in try_download
+    s = v.stock(symbol=sym)
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\common\client.py", line 110, in stock
+    return StockComponents(
+        self.symbol,
+        source,
+        show_log=self.show_log
+    )
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\common\data.py", line 105, in __init__
+    self.asset_type = get_asset_type(self.symbol)
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\core\utils\parser.py", line 170, in get_asset_type
+    raise ValueError('Invalid symbol. Your symbol format is not recognized!')
+ValueError: Invalid symbol. Your symbol format is not recognized!
+
+
+----- "VN30","HNX30","UPCOM", | 2025-11-13 13:44:07 -----
+Traceback (most recent call last):
+  File "C:\Users\Gau lang thang\Desktop\market_strength\retry_failed.py", line 57, in try_download
+    s = v.stock(symbol=sym)
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\common\client.py", line 110, in stock
+    return StockComponents(
+        self.symbol,
+        source,
+        show_log=self.show_log
+    )
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\common\data.py", line 105, in __init__
+    self.asset_type = get_asset_type(self.symbol)
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\core\utils\parser.py", line 170, in get_asset_type
+    raise ValueError('Invalid symbol. Your symbol format is not recognized!')
+ValueError: Invalid symbol. Your symbol format is not recognized!
+
+
+----- "HASTC","HASTCINDEX" | 2025-11-13 13:44:13 -----
+Traceback (most recent call last):
+  File "C:\Users\Gau lang thang\Desktop\market_strength\retry_failed.py", line 57, in try_download
+    s = v.stock(symbol=sym)
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\common\client.py", line 110, in stock
+    return StockComponents(
+        self.symbol,
+        source,
+        show_log=self.show_log
+    )
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\common\data.py", line 105, in __init__
+    self.asset_type = get_asset_type(self.symbol)
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\core\utils\parser.py", line 170, in get_asset_type
+    raise ValueError('Invalid symbol. Your symbol format is not recognized!')
+ValueError: Invalid symbol. Your symbol format is not recognized!
+
+
+----- } | 2025-11-13 13:44:18 -----
+Traceback (most recent call last):
+  File "C:\Users\Gau lang thang\Desktop\market_strength\retry_failed.py", line 57, in try_download
+    s = v.stock(symbol=sym)
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\common\client.py", line 110, in stock
+    return StockComponents(
+        self.symbol,
+        source,
+        show_log=self.show_log
+    )
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\common\data.py", line 105, in __init__
+    self.asset_type = get_asset_type(self.symbol)
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\core\utils\parser.py", line 170, in get_asset_type
+    raise ValueError('Invalid symbol. Your symbol format is not recognized!')
+ValueError: Invalid symbol. Your symbol format is not recognized!
+
+
+----- clean = [] | 2025-11-13 13:44:23 -----
+Traceback (most recent call last):
+  File "C:\Users\Gau lang thang\Desktop\market_strength\retry_failed.py", line 57, in try_download
+    s = v.stock(symbol=sym)
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\common\client.py", line 110, in stock
+    return StockComponents(
+        self.symbol,
+        source,
+        show_log=self.show_log
+    )
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\common\data.py", line 105, in __init__
+    self.asset_type = get_asset_type(self.symbol)
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\core\utils\parser.py", line 170, in get_asset_type
+    raise ValueError('Invalid symbol. Your symbol format is not recognized!')
+ValueError: Invalid symbol. Your symbol format is not recognized!
+
+
+----- with open(src, "r", encoding="utf-8") as f: | 2025-11-13 13:44:29 -----
+Traceback (most recent call last):
+  File "C:\Users\Gau lang thang\Desktop\market_strength\retry_failed.py", line 57, in try_download
+    s = v.stock(symbol=sym)
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\common\client.py", line 110, in stock
+    return StockComponents(
+        self.symbol,
+        source,
+        show_log=self.show_log
+    )
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\common\data.py", line 105, in __init__
+    self.asset_type = get_asset_type(self.symbol)
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\core\utils\parser.py", line 170, in get_asset_type
+    raise ValueError('Invalid symbol. Your symbol format is not recognized!')
+ValueError: Invalid symbol. Your symbol format is not recognized!
+
+
+----- for line in f: | 2025-11-13 13:44:34 -----
+Traceback (most recent call last):
+  File "C:\Users\Gau lang thang\Desktop\market_strength\retry_failed.py", line 57, in try_download
+    s = v.stock(symbol=sym)
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\common\client.py", line 110, in stock
+    return StockComponents(
+        self.symbol,
+        source,
+        show_log=self.show_log
+    )
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\common\data.py", line 105, in __init__
+    self.asset_type = get_asset_type(self.symbol)
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\core\utils\parser.py", line 170, in get_asset_type
+    raise ValueError('Invalid symbol. Your symbol format is not recognized!')
+ValueError: Invalid symbol. Your symbol format is not recognized!
+
+
+----- s = line.strip() | 2025-11-13 13:44:40 -----
+Traceback (most recent call last):
+  File "C:\Users\Gau lang thang\Desktop\market_strength\retry_failed.py", line 57, in try_download
+    s = v.stock(symbol=sym)
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\common\client.py", line 110, in stock
+    return StockComponents(
+        self.symbol,
+        source,
+        show_log=self.show_log
+    )
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\common\data.py", line 105, in __init__
+    self.asset_type = get_asset_type(self.symbol)
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\core\utils\parser.py", line 170, in get_asset_type
+    raise ValueError('Invalid symbol. Your symbol format is not recognized!')
+ValueError: Invalid symbol. Your symbol format is not recognized!
+
+
+----- if not s: | 2025-11-13 13:44:45 -----
+Traceback (most recent call last):
+  File "C:\Users\Gau lang thang\Desktop\market_strength\retry_failed.py", line 57, in try_download
+    s = v.stock(symbol=sym)
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\common\client.py", line 110, in stock
+    return StockComponents(
+        self.symbol,
+        source,
+        show_log=self.show_log
+    )
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\common\data.py", line 105, in __init__
+    self.asset_type = get_asset_type(self.symbol)
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\core\utils\parser.py", line 163, in get_asset_type
+    raise ValueError('Invalid derivative or bond symbol. Symbol must be in format of VN30F1M, VN30F2024, GB10F2024, or for company bonds, e.g., BAB122032')
+ValueError: Invalid derivative or bond symbol. Symbol must be in format of VN30F1M, VN30F2024, GB10F2024, or for company bonds, e.g., BAB122032
+
+
+----- continue | 2025-11-13 13:45:14 -----
+Traceback (most recent call last):
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\tenacity\__init__.py", line 480, in __call__
+    result = fn(*args, **kwargs)
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\common\data.py", line 193, in history
+    return self.data_source.history(**kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnai\beam\quota.py", line 291, in wrapper
+    result = func(*args, **kwargs)
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\explorer\vci\quote.py", line 291, in history
+    raise ValueError(
+    ...<2 lines>...
+    )
+ValueError: Không tìm thấy dữ liệu. Vui lòng kiểm tra lại mã chứng khoán hoặc thời gian truy xuất.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Gau lang thang\Desktop\market_strength\retry_failed.py", line 58, in try_download
+    df = s.quote.history(start=START_DATE, end=END_DATE, interval="1D")
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\tenacity\__init__.py", line 338, in wrapped_f
+    return copy(f, *args, **kw)
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\tenacity\__init__.py", line 477, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\tenacity\__init__.py", line 378, in iter
+    result = action(retry_state)
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\tenacity\__init__.py", line 421, in exc_check
+    raise retry_exc from fut.exception()
+tenacity.RetryError: RetryError[<Future at 0x1d1125d25d0 state=finished raised ValueError>]
+
+
+----- s = s.lstrip("^").strip().upper() | 2025-11-13 13:45:19 -----
+Traceback (most recent call last):
+  File "C:\Users\Gau lang thang\Desktop\market_strength\retry_failed.py", line 57, in try_download
+    s = v.stock(symbol=sym)
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\common\client.py", line 110, in stock
+    return StockComponents(
+        self.symbol,
+        source,
+        show_log=self.show_log
+    )
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\common\data.py", line 105, in __init__
+    self.asset_type = get_asset_type(self.symbol)
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\core\utils\parser.py", line 170, in get_asset_type
+    raise ValueError('Invalid symbol. Your symbol format is not recognized!')
+ValueError: Invalid symbol. Your symbol format is not recognized!
+
+
+----- if s in skip_indices: | 2025-11-13 13:45:25 -----
+Traceback (most recent call last):
+  File "C:\Users\Gau lang thang\Desktop\market_strength\retry_failed.py", line 57, in try_download
+    s = v.stock(symbol=sym)
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\common\client.py", line 110, in stock
+    return StockComponents(
+        self.symbol,
+        source,
+        show_log=self.show_log
+    )
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\common\data.py", line 105, in __init__
+    self.asset_type = get_asset_type(self.symbol)
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\core\utils\parser.py", line 170, in get_asset_type
+    raise ValueError('Invalid symbol. Your symbol format is not recognized!')
+ValueError: Invalid symbol. Your symbol format is not recognized!
+
+
+----- if s not in clean: | 2025-11-13 13:45:31 -----
+Traceback (most recent call last):
+  File "C:\Users\Gau lang thang\Desktop\market_strength\retry_failed.py", line 57, in try_download
+    s = v.stock(symbol=sym)
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\common\client.py", line 110, in stock
+    return StockComponents(
+        self.symbol,
+        source,
+        show_log=self.show_log
+    )
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\common\data.py", line 105, in __init__
+    self.asset_type = get_asset_type(self.symbol)
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\core\utils\parser.py", line 170, in get_asset_type
+    raise ValueError('Invalid symbol. Your symbol format is not recognized!')
+ValueError: Invalid symbol. Your symbol format is not recognized!
+
+
+----- clean.append(s) | 2025-11-13 13:45:36 -----
+Traceback (most recent call last):
+  File "C:\Users\Gau lang thang\Desktop\market_strength\retry_failed.py", line 57, in try_download
+    s = v.stock(symbol=sym)
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\common\client.py", line 110, in stock
+    return StockComponents(
+        self.symbol,
+        source,
+        show_log=self.show_log
+    )
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\common\data.py", line 105, in __init__
+    self.asset_type = get_asset_type(self.symbol)
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\core\utils\parser.py", line 170, in get_asset_type
+    raise ValueError('Invalid symbol. Your symbol format is not recognized!')
+ValueError: Invalid symbol. Your symbol format is not recognized!
+
+
+----- out = "vnstock_failed_clean.txt" | 2025-11-13 13:45:42 -----
+Traceback (most recent call last):
+  File "C:\Users\Gau lang thang\Desktop\market_strength\retry_failed.py", line 57, in try_download
+    s = v.stock(symbol=sym)
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\common\client.py", line 110, in stock
+    return StockComponents(
+        self.symbol,
+        source,
+        show_log=self.show_log
+    )
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\common\data.py", line 105, in __init__
+    self.asset_type = get_asset_type(self.symbol)
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\core\utils\parser.py", line 170, in get_asset_type
+    raise ValueError('Invalid symbol. Your symbol format is not recognized!')
+ValueError: Invalid symbol. Your symbol format is not recognized!
+
+
+----- with open(out, "w", encoding="utf-8") as f: | 2025-11-13 13:45:48 -----
+Traceback (most recent call last):
+  File "C:\Users\Gau lang thang\Desktop\market_strength\retry_failed.py", line 57, in try_download
+    s = v.stock(symbol=sym)
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\common\client.py", line 110, in stock
+    return StockComponents(
+        self.symbol,
+        source,
+        show_log=self.show_log
+    )
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\common\data.py", line 105, in __init__
+    self.asset_type = get_asset_type(self.symbol)
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\core\utils\parser.py", line 170, in get_asset_type
+    raise ValueError('Invalid symbol. Your symbol format is not recognized!')
+ValueError: Invalid symbol. Your symbol format is not recognized!
+
+
+----- for s in clean: | 2025-11-13 13:45:52 -----
+Traceback (most recent call last):
+  File "C:\Users\Gau lang thang\Desktop\market_strength\retry_failed.py", line 57, in try_download
+    s = v.stock(symbol=sym)
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\common\client.py", line 110, in stock
+    return StockComponents(
+        self.symbol,
+        source,
+        show_log=self.show_log
+    )
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\common\data.py", line 105, in __init__
+    self.asset_type = get_asset_type(self.symbol)
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\core\utils\parser.py", line 170, in get_asset_type
+    raise ValueError('Invalid symbol. Your symbol format is not recognized!')
+ValueError: Invalid symbol. Your symbol format is not recognized!
+
+
+----- f.write(s + "\n") | 2025-11-13 13:45:58 -----
+Traceback (most recent call last):
+  File "C:\Users\Gau lang thang\Desktop\market_strength\retry_failed.py", line 57, in try_download
+    s = v.stock(symbol=sym)
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\common\client.py", line 110, in stock
+    return StockComponents(
+        self.symbol,
+        source,
+        show_log=self.show_log
+    )
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\common\data.py", line 105, in __init__
+    self.asset_type = get_asset_type(self.symbol)
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\core\utils\parser.py", line 170, in get_asset_type
+    raise ValueError('Invalid symbol. Your symbol format is not recognized!')
+ValueError: Invalid symbol. Your symbol format is not recognized!
+
+
+----- print("✅ ĐÃ TẠO FILE:", out) | 2025-11-13 13:46:03 -----
+Traceback (most recent call last):
+  File "C:\Users\Gau lang thang\Desktop\market_strength\retry_failed.py", line 57, in try_download
+    s = v.stock(symbol=sym)
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\common\client.py", line 110, in stock
+    return StockComponents(
+        self.symbol,
+        source,
+        show_log=self.show_log
+    )
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\common\data.py", line 105, in __init__
+    self.asset_type = get_asset_type(self.symbol)
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\core\utils\parser.py", line 170, in get_asset_type
+    raise ValueError('Invalid symbol. Your symbol format is not recognized!')
+ValueError: Invalid symbol. Your symbol format is not recognized!
+
+
+----- print("👉 Số mã còn lại:", len(clean)) | 2025-11-13 13:46:09 -----
+Traceback (most recent call last):
+  File "C:\Users\Gau lang thang\Desktop\market_strength\retry_failed.py", line 57, in try_download
+    s = v.stock(symbol=sym)
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\common\client.py", line 110, in stock
+    return StockComponents(
+        self.symbol,
+        source,
+        show_log=self.show_log
+    )
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\common\data.py", line 105, in __init__
+    self.asset_type = get_asset_type(self.symbol)
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\core\utils\parser.py", line 170, in get_asset_type
+    raise ValueError('Invalid symbol. Your symbol format is not recognized!')
+ValueError: Invalid symbol. Your symbol format is not recognized!
+
+
+----- PY | 2025-11-13 13:46:15 -----
+Traceback (most recent call last):
+  File "C:\Users\Gau lang thang\Desktop\market_strength\retry_failed.py", line 57, in try_download
+    s = v.stock(symbol=sym)
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\common\client.py", line 110, in stock
+    return StockComponents(
+        self.symbol,
+        source,
+        show_log=self.show_log
+    )
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\common\data.py", line 105, in __init__
+    self.asset_type = get_asset_type(self.symbol)
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\core\utils\parser.py", line 170, in get_asset_type
+    raise ValueError('Invalid symbol. Your symbol format is not recognized!')
+ValueError: Invalid symbol. Your symbol format is not recognized!
+
+
+----- ^HASTC | 2025-11-13 13:52:57 -----
+Traceback (most recent call last):
+  File "C:\Users\Gau lang thang\Desktop\market_strength\download_history_vnstock.py", line 101, in <module>
+    s = v.stock(symbol=sym)
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\common\client.py", line 110, in stock
+    return StockComponents(
+        self.symbol,
+        source,
+        show_log=self.show_log
+    )
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\common\data.py", line 105, in __init__
+    self.asset_type = get_asset_type(self.symbol)
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\core\utils\parser.py", line 170, in get_asset_type
+    raise ValueError('Invalid symbol. Your symbol format is not recognized!')
+ValueError: Invalid symbol. Your symbol format is not recognized!
+
+
+----- ^UPCOM | 2025-11-13 13:53:11 -----
+Traceback (most recent call last):
+  File "C:\Users\Gau lang thang\Desktop\market_strength\download_history_vnstock.py", line 101, in <module>
+    s = v.stock(symbol=sym)
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\common\client.py", line 110, in stock
+    return StockComponents(
+        self.symbol,
+        source,
+        show_log=self.show_log
+    )
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\common\data.py", line 105, in __init__
+    self.asset_type = get_asset_type(self.symbol)
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\core\utils\parser.py", line 170, in get_asset_type
+    raise ValueError('Invalid symbol. Your symbol format is not recognized!')
+ValueError: Invalid symbol. Your symbol format is not recognized!
+
+
+----- ^VN30 | 2025-11-13 13:53:24 -----
+Traceback (most recent call last):
+  File "C:\Users\Gau lang thang\Desktop\market_strength\download_history_vnstock.py", line 101, in <module>
+    s = v.stock(symbol=sym)
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\common\client.py", line 110, in stock
+    return StockComponents(
+        self.symbol,
+        source,
+        show_log=self.show_log
+    )
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\common\data.py", line 105, in __init__
+    self.asset_type = get_asset_type(self.symbol)
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\core\utils\parser.py", line 170, in get_asset_type
+    raise ValueError('Invalid symbol. Your symbol format is not recognized!')
+ValueError: Invalid symbol. Your symbol format is not recognized!
+
+
+----- ^VNINDEX | 2025-11-13 13:53:36 -----
+Traceback (most recent call last):
+  File "C:\Users\Gau lang thang\Desktop\market_strength\download_history_vnstock.py", line 101, in <module>
+    s = v.stock(symbol=sym)
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\common\client.py", line 110, in stock
+    return StockComponents(
+        self.symbol,
+        source,
+        show_log=self.show_log
+    )
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\common\data.py", line 110, in __init__
+    self._initialize_components()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\common\data.py", line 129, in _initialize_components
+    self.quote = Quote(self.symbol, self.source)
+                 ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\common\data.py", line 161, in __init__
+    super().__init__(symbol, source)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\common\data.py", line 63, in __init__
+    self.data_source = self._load_data_source()
+                       ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\common\data.py", line 169, in _load_data_source
+    return module.Quote(self.symbol)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\explorer\vci\quote.py", line 77, in __init__
+    self.symbol = self._index_validation()
+                  ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\explorer\vci\quote.py", line 86, in _index_validation
+    raise ValueError(
+    ...<2 lines>...
+    )
+ValueError: Không tìm thấy mã chứng khoán ^VNINDEX. Các giá trị hợp lệ: VNINDEX, HNXINDEX, UPCOMINDEX
+
+

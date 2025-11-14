@@ -1,0 +1,194 @@
+---------------------------- 
+Run at 13/11/2025 10:16:30,37 
+python: can't open file 'C:\\Users\\Gau lang thang\\Desktop\\market_strength\\retry_failed.py': [Errno 2] No such file or directory
+Exit code: 2 
+ 
+---------------------------- 
+Run at 13/11/2025 10:59:40,60 
+python: can't open file 'C:\\Users\\Gau lang thang\\Desktop\\market_strength\\retry_failed.py': [Errno 2] No such file or directory
+Exit code: 2 
+ 
+---------------------------- 
+Run at 13/11/2025 11:59:40,62 
+python: can't open file 'C:\\Users\\Gau lang thang\\Desktop\\market_strength\\retry_failed.py': [Errno 2] No such file or directory
+Exit code: 2 
+ 
+---------------------------- 
+Run at 13/11/2025 12:54:21,35 
+python: can't open file 'C:\\Users\\Gau lang thang\\Desktop\\market_strength\\retry_failed.py': [Errno 2] No such file or directory
+Exit code: 2 
+ 
+---------------------------- 
+Run at 13/11/2025 12:54:26,85 
+python: can't open file 'C:\\Users\\Gau lang thang\\Desktop\\market_strength\\retry_failed.py': [Errno 2] No such file or directory
+Exit code: 2 
+ 
+---------------------------- 
+Run at 13/11/2025 12:54:28,01 
+python: can't open file 'C:\\Users\\Gau lang thang\\Desktop\\market_strength\\retry_failed.py': [Errno 2] No such file or directory
+Exit code: 2 
+ 
+---------------------------- 
+Run at 13/11/2025 12:59:40,56 
+Traceback (most recent call last):
+  File "C:\Users\Gau lang thang\Desktop\market_strength\retry_failed.py", line 8, in <module>
+    from vnstock import Vnstock
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\__init__.py", line 1, in <module>
+    import vnai
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnai\__init__.py", line 125, in <module>
+    core = Core()
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnai\__init__.py", line 39, in __init__
+    self.initialize()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnai\__init__.py", line 67, in initialize
+    present()
+    ~~~~~~~^^
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnai\scope\promo.py", line 268, in present
+    manager.present_content(context=context, ad_category=ad_category)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnai\scope\promo.py", line 172, in present_content
+    print(fallback["simple"])
+    ~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gau lang thang\AppData\Local\Programs\Python\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f44b' in position 0: character maps to <undefined>
+Exit code: 1 
+ 
+---------------------------- 
+Run at 13/11/2025 13:59:40,59 
+Traceback (most recent call last):
+  File "C:\Users\Gau lang thang\Desktop\market_strength\retry_failed.py", line 3, in <module>
+    from vnstock import Vnstock
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\__init__.py", line 1, in <module>
+    import vnai
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnai\__init__.py", line 125, in <module>
+    core = Core()
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnai\__init__.py", line 39, in __init__
+    self.initialize()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnai\__init__.py", line 67, in initialize
+    present()
+    ~~~~~~~^^
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnai\scope\promo.py", line 268, in present
+    manager.present_content(context=context, ad_category=ad_category)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnai\scope\promo.py", line 172, in present_content
+    print(fallback["simple"])
+    ~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gau lang thang\AppData\Local\Programs\Python\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f44b' in position 0: character maps to <undefined>
+Exit code: 1 
+ 
+---------------------------- 
+Run at 13/11/2025 14:57:16,22 
+Traceback (most recent call last):
+  File "C:\Users\Gau lang thang\Desktop\market_strength\retry_failed.py", line 3, in <module>
+    from vnstock import Vnstock
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\__init__.py", line 1, in <module>
+    import vnai
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnai\__init__.py", line 125, in <module>
+    core = Core()
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnai\__init__.py", line 39, in __init__
+    self.initialize()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnai\__init__.py", line 67, in initialize
+    present()
+    ~~~~~~~^^
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnai\scope\promo.py", line 268, in present
+    manager.present_content(context=context, ad_category=ad_category)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnai\scope\promo.py", line 172, in present_content
+    print(fallback["simple"])
+    ~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gau lang thang\AppData\Local\Programs\Python\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f44b' in position 0: character maps to <undefined>
+Exit code: 1 
+ 
+---------------------------- 
+Run at 13/11/2025 14:59:40,57 
+Traceback (most recent call last):
+  File "C:\Users\Gau lang thang\Desktop\market_strength\retry_failed.py", line 3, in <module>
+    from vnstock import Vnstock
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\__init__.py", line 1, in <module>
+    import vnai
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnai\__init__.py", line 125, in <module>
+    core = Core()
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnai\__init__.py", line 39, in __init__
+    self.initialize()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnai\__init__.py", line 67, in initialize
+    present()
+    ~~~~~~~^^
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnai\scope\promo.py", line 268, in present
+    manager.present_content(context=context, ad_category=ad_category)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnai\scope\promo.py", line 172, in present_content
+    print(fallback["simple"])
+    ~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gau lang thang\AppData\Local\Programs\Python\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f44b' in position 0: character maps to <undefined>
+Exit code: 1 
+ 
+---------------------------- 
+Run at 13/11/2025 15:59:40,58 
+Failed to fetch remote content: HTTPSConnectionPool(host='hq.vnstocks.com', port=443): Max retries exceeded with url: /content-delivery?context=init&html=false (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000020173A63B60>: Failed to resolve 'hq.vnstocks.com' ([Errno 11001] getaddrinfo failed)"))
+Traceback (most recent call last):
+  File "C:\Users\Gau lang thang\Desktop\market_strength\retry_failed.py", line 3, in <module>
+    from vnstock import Vnstock
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\__init__.py", line 1, in <module>
+    import vnai
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnai\__init__.py", line 125, in <module>
+    core = Core()
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnai\__init__.py", line 39, in __init__
+    self.initialize()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnai\__init__.py", line 67, in initialize
+    present()
+    ~~~~~~~^^
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnai\scope\promo.py", line 268, in present
+    manager.present_content(context=context, ad_category=ad_category)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnai\scope\promo.py", line 172, in present_content
+    print(fallback["simple"])
+    ~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gau lang thang\AppData\Local\Programs\Python\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f44b' in position 0: character maps to <undefined>
+Exit code: 1 
+ 
+---------------------------- 
+Run at 13/11/2025 16:42:36,01 
+Failed to fetch remote content: HTTPSConnectionPool(host='hq.vnstocks.com', port=443): Max retries exceeded with url: /content-delivery?context=init&html=false (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000015AAF2D3B60>: Failed to resolve 'hq.vnstocks.com' ([Errno 11001] getaddrinfo failed)"))
+Traceback (most recent call last):
+  File "C:\Users\Gau lang thang\Desktop\market_strength\retry_failed.py", line 3, in <module>
+    from vnstock import Vnstock
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnstock\__init__.py", line 1, in <module>
+    import vnai
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnai\__init__.py", line 125, in <module>
+    core = Core()
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnai\__init__.py", line 39, in __init__
+    self.initialize()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnai\__init__.py", line 67, in initialize
+    present()
+    ~~~~~~~^^
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnai\scope\promo.py", line 268, in present
+    manager.present_content(context=context, ad_category=ad_category)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gau lang thang\Desktop\market_strength\venv\Lib\site-packages\vnai\scope\promo.py", line 172, in present_content
+    print(fallback["simple"])
+    ~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gau lang thang\AppData\Local\Programs\Python\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f44b' in position 0: character maps to <undefined>
+Exit code: 1 
+ 
