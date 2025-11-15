@@ -46,4 +46,4 @@ jobs:
           else
             echo "ERROR: No runner script found (bot_server_cloud.py or bot_server.py)."
             exit 2
-          fi
+          fi 
